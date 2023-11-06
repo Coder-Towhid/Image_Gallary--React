@@ -32,7 +32,7 @@ const Gallary = () => {
 
   const handleImageAdd = (image) => {
     setImages((prev) => [...prev, { src: image, id: uuidv4() }]);
-    console.log(images);
+   
   };
 
   const handleImageSelect = (id, add = true) => {
