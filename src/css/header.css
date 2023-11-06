@@ -1,0 +1,78 @@
+h1 {
+  font-size: 1.5rem;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  margin-bottom: 3rem;
+}
+
+.header-wrapper {
+  height: 3rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.delete-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: red;
+}
+.deleteBtn span {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.deleteBtn span:hover {
+  border-bottom: 2px solid red;
+}
+
+.total-selected {
+  align-items: center;
+  display: flex;
+}
+.total-selected p {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+.total-selected span {
+  margin-right: 8px;
+}
+.total-selected input {
+  width: 1.2rem;
+  height: 1.5rem;
+}
+
+@media (max-width: 1366px) {
+  .header-wrapper {
+    max-width: 1050px;
+  }
+}
+
+@media (max-width: 1216px) {
+  .header-wrapper {
+    max-width: 950px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .header-wrapper {
+    max-width: 700px;
+  }
+}
